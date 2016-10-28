@@ -79,13 +79,34 @@ hr {
   padding-top: 25px;
 }
 
-#recipe-box {
-  position: relative;
+#recipe {
+  position: relative;;
   overflow: hidden;
-
 }
 
-#recipe div {
+#recipe .list {
   position: absolute;
-  top: 0px;
+  top: 0;
+}
+
+#one {
+  left: 0;
+}
+#one li {
+  padding: 6px;
+  font-family: 'Imprima', sans-serif;
+  opacity: 0.5;
+  text-align: left;
+}
+#two {
+  right: 0;
+}
+#two li {
+  padding: 6px;
+  font-family: 'Imprima', sans-serif;
+  opacity: 0.5;
+  text-align: left;
+}
+ div.list{
+  width: 90%;
 }
