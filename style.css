@@ -1,15 +1,35 @@
+header {
+  overflow: hidden;
+}
+
+#title-font {
+  font-family: 'Yellowtail', cursive;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+#logo-tagline {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 11px;
+
+}
+
+#logo-image {
+  padding-right: 10px;
+}
+
+
 #logo-title li{
+  float: left;
   display: inline-block;
   z-index: auto;
   padding-bottom: 25px;
-
-
-
 }
 
 #social-icons {
   float: right;
-  padding-bottom: 25px;
+  padding: 0px 10px;
+
 
 }
 
@@ -21,6 +41,7 @@
 
 body {
   margin: auto;
+  width: 900px;
 }
 
 hr {
@@ -31,3 +52,10 @@ hr {
 
 
   }
+
+
+#post-title {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+}
