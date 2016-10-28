@@ -1,0 +1,33 @@
+#logo-title li{
+  display: inline-block;
+  z-index: auto;
+  padding-bottom: 25px;
+
+
+
+}
+
+#social-icons {
+  float: right;
+  padding-bottom: 25px;
+
+}
+
+#social-icons li {
+  display: inline-block;
+  padding-bottom: 25px;
+
+}
+
+body {
+  margin: auto;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  padding-bottom: 50px;
+
+
+  }
