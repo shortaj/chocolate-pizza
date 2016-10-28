@@ -56,6 +56,36 @@ hr {
 
 #post-title {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 34px;
+  font-size: 41px;
   font-weight: 700;
+}
+
+#post-date {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  opacity: .5;
+  font-size: 16px;
+}
+
+#print li {
+  opacity: .5;
+  float: right;
+  display: inline-block;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 16px;
+}
+
+#pizza-image {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#recipe-box {
+  position: relative;
+  overflow: hidden;
+
+}
+
+#recipe div {
+  position: absolute;
+  top: 0px;
 }
